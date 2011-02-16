@@ -11,8 +11,6 @@
 |
 */
 
-//This is test
-
 Route::get('/', ['uses'=> 'HomeController@index']);
 
 Route::get('/pokemon/{name}', ['uses'=> 'DetailsController@index']);
